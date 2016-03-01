@@ -1,0 +1,60 @@
+{
+	"addActuator" : "Add actuator",
+	"addinganewactuatorpairinghelp" : "<p>The logical actuator have been added.</p><p>Now, you should pair this logical actuator with a physical one. Set your physical actuator in LEARN mode, and click on the pairing button below.</p><p>You may pair several physical actuator onto the logical one. Use the pairing button as long as you need. Then, click on the <i>Done</i> button when you are done.</p>",
+	
+	"blindandshutterdevice" : "Blind/Shutter device",
+	"BLIND_AND_SHUTTER_MOTOR_DEVICE" : "Motor actuator",
+	
+	"contactState" : "Contact state",
+	 
+	"done" : "Done",
+	"down" : "Down",
+	
+	"EEP_05_02_01" : "Rocker switch, 2 buttons",
+	"EEP_05_04_01" : "Key card holder",
+	"EEP_05_10_00" : "Mechanical Handle",
+	"EEP_06_00_01" : "Single input contact",
+	"EEP_07_08_01" : "Light, Temperature<br/> & Occupancy sensor",
+	"EEP_07_06_01" : "Outside Light sensor",
+	"EEP_07_06_02" : "Inside Light sensor",
+	"EEP_07_10_01" : "Temperature sensor,<br/> Set Point, Fan Speed & Occupancy control",
+	"EEP_07_10_03" : "Temperature sensor, <br/>Set Point control",
+	"EEP_A5_12_00" : "3-channels metering interface",
+	
+	"fanSpeed" : "Fan Speed",
+	
+	"handleState" : "Handle state",
+	
+	"illumination" : "Illumination",
+	"invertMotor" : "Invert Motor",
+	
+	"keyCardState" : "Key card state",
+	
+	"lastOccupancyButtonPressDate" : "Last occup. button activ.",
+	
+	"motor" : "Motor",
+	
+	"off" : "Off",
+	"on" : "On",
+	"onoffdevice" : "On/Off device",
+	"ONOFF_DEVICE" : "On/Off actuator",
+	
+	"pairing" : "Pairing",
+	"PIRStatus" : "PIR status",
+	
+	"relay" : "Relay",
+	
+	"selectactuatorprofile" : "Select the actuator profile",
+	"sendpairingsignal" : "Send a pairing signal",
+	"setPoint" : "Set point",
+	"stepDown" : "Step down",
+	"stepUp" : "Step up",
+	"stop" : "Stop",
+	"supplyVoltage" : "Supply Voltage",
+	"switch0" : "Switch A",
+	"switch1" : "Switch B",
+	
+	"up" : "Up",
+	
+	"temperature" : "Temperature"
+}

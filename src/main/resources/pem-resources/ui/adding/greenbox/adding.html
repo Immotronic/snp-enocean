@@ -1,0 +1,36 @@
+<h2>EnOcean</h2>
+<div>
+	<table id="addingLogicalActuator">
+		<tr>
+			<td class="label" tr="selectactuatorprofile"></td>
+			<td class="value">
+				<select id="actuatorProfile">
+					<option value="ONOFF_DEVICE" tr="onoffdevice"></option>
+					<option value="BLIND_AND_SHUTTER_MOTOR_DEVICE" tr="blindandshutterdevice"></option>
+				</select>
+			</td>
+		</tr>
+		<tr>
+			<td class="label" tr="name"></td><td class="value"><input type="text" id="itemName"></td>
+		</tr>
+		<tr>
+			<td class="label" tr="location"></td><td class="value"><input type="text" id="itemLocation"></td>
+		</tr>
+		<tr>
+			<td colspan="2" class="buttons">
+				<input type="button" id="EnoceanAddNode" tr="addActuator">
+				<img src="/Immotronic/enocean/ui/img/loading_default.gif" width="16" height="16" style="display:none"/>
+			</td>
+		</tr>
+	</table>
+	<div id="pairingActuator" style="display:none">
+		<input type="hidden" id="actuatorUID">
+		<div class="quickhelp small" tr="addinganewactuatorpairinghelp"></div>
+		<div class="buttons">
+				<input type="button" id="EnoceanPairAcutatorButton" tr="sendpairingsignal">
+		</div>
+		<div class="buttons">
+				<input type="button" id="EnoceanAddingDoneButton" tr="done">
+		</div>
+	</div>
+</div>
